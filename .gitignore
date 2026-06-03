@@ -1,0 +1,35 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.obj
+
+# Linker files
+*.ilk
+*.pdb
+*.exp
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.am
+*.gch
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake build directory
+build/
+CMakeUserPresets.json
+
+# VS Code specific directories and files
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
